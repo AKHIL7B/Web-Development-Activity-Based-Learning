@@ -1,0 +1,116 @@
+/* Basic Reset & Typography */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+    background: linear-gradient(135deg, #e65c00, #ff9900);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+/* Hover Effect: Navigation links turn a light warm peach */
+header nav ul li a:hover {
+    color: #ffeedb;
+    text-decoration: underline;
+}
+
+/* Main Content Layout */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover Effect: Sections lift up slightly and gain a soft shadow */
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(230, 92, 0, 0.1);
+}
+
+section h2 {
+    color: #e65c00;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ffeedb;
+    padding-bottom: 8px;
+}
+
+/* Courses List */
+#courses ul {
+    padding-left: 20px;
+    margin: 10px 0 0 0;
+}
+
+#courses ul li {
+    margin-bottom: 8px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover Effect: Individual course items highlight on hover */
+#courses ul li:hover {
+    background-color: #fff3e6;
+    transform: translateX(5px);
+    color: #e65c00;
+}
+
+/* General Links */
+a {
+    color: #e65c00;
+    transition: opacity 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
